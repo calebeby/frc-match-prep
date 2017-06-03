@@ -8,6 +8,7 @@
   },
   "bugs": "https://github.com/calebeby/frc-match-prep/issues",
   "dependencies": {
+    "preact": "^8.1.0",
     "reshape-standard": "^1.0.0",
     "spike-css-standards": "^1.0.0",
     "spike-js-standards": "^2.0.1",
@@ -29,6 +30,8 @@
     "lint": "standard | snazzy",
     "precommit": "npm run lint -s",
     "pretest": "npm run lint -s",
-    "test": "NODE_ENV=test ava"
+    "test": "NODE_ENV=test ava",
+    "start": "spike watch --port $PORT",
+    "compile": "spike compile"
   }
 }
