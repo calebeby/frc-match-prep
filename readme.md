@@ -1,7 +1,5 @@
 # FRC Match Prep
 
-
-
 ## Setup
 
 - make sure [node.js](http://nodejs.org) is at version >= `6`
